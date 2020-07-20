@@ -7,7 +7,7 @@ module.exports = {
       !webpackConfig.module.rules ||
       typeof webpackConfig.module.rules !== 'object'
     ) {
-      throw new Error('craco-styles-resources-loader error: no valid webpackConfig.module.rules');
+      throw new Error('craco-style-resources-loader error: no valid webpackConfig.module.rules');
     }
 
     // Add the loader rule where needed
@@ -25,7 +25,7 @@ module.exports = {
             } : {};
 
             output.module.rules[ruleIndex].oneOf[oneOfIndex].use.push({
-              loader: 'styles-resources-loader',
+              loader: 'style-resources-loader',
               options,
             })
           }
