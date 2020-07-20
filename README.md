@@ -29,7 +29,7 @@ module.exports = {
     {
       plugin: stylesResourcesLoader,
       options: {
-        resources: './src/variables.css',
+        patterns: './src/variables.css',
       },
     },
   ],
@@ -46,7 +46,7 @@ module.exports = {
     {
       plugin: stylesResourcesLoader,
       options: {
-        resources: [
+        patterns: [
           './src/global-variables.css',
           './src/theme-variables.css'
         ],
