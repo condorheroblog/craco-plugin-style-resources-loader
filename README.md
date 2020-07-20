@@ -1,4 +1,4 @@
-# Craco styles-resources-loader
+# Craco style-resources-loader
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -9,20 +9,20 @@ Inspired by: https://github.com/tilap/craco-sass-resources-loader
 ## Installation
 
 ```bash
-$ yarn add -D craco-styles-resources-loader
+$ yarn add -D craco-style-resources-loader
 
 # OR
 
-$ npm install craco-styles-resources-loader --save-dev
+$ npm install craco-style-resources-loader --save-dev
 ```
 
 ## Usage
 
-`craco-styles-resources-loader` expect a `resources` option containing a string or an array of
+`craco-style-resources-loader` expect a `resources` option containing a string or an array of
 string pointing the CSS files your want to load before any CSS/styles file.
 
 ```js
-const stylesResourcesLoader = require('craco-styles-resources-loader');
+const stylesResourcesLoader = require('craco-style-resources-loader');
 
 module.exports = {
   plugins: [
@@ -39,7 +39,7 @@ module.exports = {
 You can load multiple CSS resources files too:
 
 ```js
-const stylesResourcesLoader = require('craco-styles-resources-loader');
+const stylesResourcesLoader = require('craco-style-resources-loader');
 
 module.exports = {
   plugins: [
