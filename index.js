@@ -21,7 +21,7 @@ module.exports = {
             (`${oneOf.test}`.includes('css') || `${oneOf.test}`.includes('styles'))
           ) {
             const options = pluginOptions && pluginOptions.resources ? {
-              resources: pluginOptions.resources,
+              patterns: pluginOptions.resources,
             } : {};
 
             output.module.rules[ruleIndex].oneOf[oneOfIndex].use.push({
