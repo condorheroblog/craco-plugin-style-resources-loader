@@ -18,7 +18,7 @@ $ npm install craco-style-resources-loader --save-dev
 
 ## Usage
 
-`craco-style-resources-loader` expect a `resources` option containing a string or an array of
+`craco-style-resources-loader` expect a `patterns` option containing a string or an array of
 string pointing the CSS files your want to load before any CSS/styles file.
 
 ```js
@@ -36,7 +36,7 @@ module.exports = {
 }
 ```
 
-You can load multiple CSS resources files too:
+You can load multiple CSS files too:
 
 ```js
 const stylesResourcesLoader = require('craco-style-resources-loader');

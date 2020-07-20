@@ -23,7 +23,6 @@ module.exports = {
             const options = pluginOptions && pluginOptions.patterns ? {
               patterns: pluginOptions.patterns,
             } : {};
-
             output.module.rules[ruleIndex].oneOf[oneOfIndex].use.push({
               loader: 'style-resources-loader',
               options,
