@@ -1,12 +1,18 @@
 # [craco-plugin-style-resources-loader](https://github.com/condorheroblog/craco-plugin-style-resources-loader) 🤡
 
-![craco-plugin-style-resources-loader](https://github.com/condorheroblog/craco-plugin-style-resources-loader/blob/master/index.jpg)
-
-
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-[![craco-plugin-style-resources-loader](https://img.shields.io/badge/craco--plugin--style--resources--loader-v1.0.0-brightgreen)](https://www.npmjs.com/package/craco-plugin-style-resources-loader)
-
+<p align="center">
+    <a href="https://github.com/condorheroblog/craco-plugin-style-resources-loader"><img src="https://github.com/condorheroblog/craco-plugin-style-resources-loader/blob/master/index.jpg" alt="banner"></a>
+</p>
+<p align="center">
+    <a href="https://github.com/condorheroblog/craco-plugin-style-resources-loader/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/craco-plugin-style-resources-loader" alt="MIT License"></a>
+    <a href="https://www.npmjs.com/package/craco-plugin-style-resources-loader"><img src="https://img.shields.io/npm/v/craco-plugin-style-resources-loader" alt="npm version"></a>
+    <a href="https://npmcharts.com/compare/craco-plugin-style-resources-loader?interval=7"><img src="https://img.shields.io/npm/dw/craco-plugin-style-resources-loader?style=plastic" alt="download"></a>
+    <a><img src="https://img.shields.io/bundlephobia/min/craco-plugin-style-resources-loader?color=orange" alt="minified"><a>
+    <a href="https://github.com/condorheroblog/craco-plugin-style-resources-loader/issues"><img src="https://img.shields.io/github/issues/condorheroblog/craco-plugin-style-resources-loader" alt="
+GitHub issues"><a>
+    <a href="https://github.com/condorheroblog/craco-plugin-style-resources-loader/fork"><img src="https://img.shields.io/github/forks/condorheroblog/craco-plugin-style-resources-loader" alt="GitHub forks"><a>
+    <a><img src="https://img.shields.io/github/stars/condorheroblog/craco-plugin-style-resources-loader" alt="GitHub stars"><a>
+</p>
 
 If you want to automatically import files (for colors, variables, mixins...) in you project, you can use the `craco-plugin-style-resources-loader` . *in fact introduce css global variables is useful in you project*.
 
@@ -39,7 +45,7 @@ string pointing the `scss/sass/css/less` files your want to load before any `scs
 
 e.g. `use less processor`
 
-If you only use one less file：
+If you only use one less resources file，in `craco.config.js` file, you need to use this:
 
 ```js
 const cracoPluginStyleResourcesLoader = require('craco-plugin-style-resources-loader');
