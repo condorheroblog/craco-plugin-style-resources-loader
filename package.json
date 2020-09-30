@@ -1,6 +1,6 @@
 {
 	"name": "craco-plugin-style-resources-loader",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A craco plugin to use style-resources-loader with create-react-app",
 	"repository": {
 		"type": "git",
