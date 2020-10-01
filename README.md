@@ -6,7 +6,7 @@
 <p align="center">
     <a href="https://github.com/condorheroblog/craco-plugin-style-resources-loader/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/craco-plugin-style-resources-loader" alt="MIT License"></a>
     <a href="https://www.npmjs.com/package/craco-plugin-style-resources-loader"><img src="https://img.shields.io/npm/v/craco-plugin-style-resources-loader" alt="npm version"></a>
-    <a href="https://npmcharts.com/compare/craco-plugin-style-resources-loader?interval=7"><img src="https://img.shields.io/npm/dw/craco-plugin-style-resources-loader?style=plastic" alt="download"></a>
+    <a href="https://npmcharts.com/compare/craco-plugin-style-resources-loader?interval=7"><img src="https://img.shields.io/npm/dw/craco-plugin-style-resources-loader" alt="download"></a>
     <a><img src="https://img.shields.io/bundlephobia/min/craco-plugin-style-resources-loader?color=orange" alt="minified"><a>
     <a href="https://github.com/condorheroblog/craco-plugin-style-resources-loader/issues"><img src="https://img.shields.io/github/issues/condorheroblog/craco-plugin-style-resources-loader" alt="
 GitHub issues"><a>
@@ -19,7 +19,7 @@ If you want to automatically import files (for colors, variables, mixins...) in 
 
 > This is a [craco](https://github.com/sharegate/craco) plugin to add [Style Resources Loader](https://github.com/yenshih/style-resources-loader) with [create-react-app](https://facebook.github.io/create-react-app/) version >= 2.
 
-Inspired by: [craco-sass-resources-loader](https://github.com/tilap/craco-sass-resources-loader) 、 [style-resources-loader](https://github.com/spacedawwwg/craco-style-resources-loader#readme) and [vue-cli Working with CSS](https://cli.vuejs.org/guide/css.html)
+Inspired by: [craco-sass-resources-loader](https://github.com/tilap/craco-sass-resources-loader) 、 [craco-style-resources-loader](https://github.com/spacedawwwg/craco-style-resources-loader#readme) and [vue-cli Working with CSS](https://cli.vuejs.org/guide/css.html)
 
 ## Introduction
 
